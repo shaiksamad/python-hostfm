@@ -7,3 +7,13 @@ A python package to manipulate hosts file.
 ```
 pip install python-hostfm
 ```
+
+## Quick Start
+
+```python
+from hostfm import HostFile
+
+hosts = HostFile()
+print(host.entries)
+
+```
